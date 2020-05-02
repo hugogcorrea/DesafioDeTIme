@@ -21,7 +21,7 @@ public class DesafioMeuTimeApplication implements MeuTimeInterface {
 	private Map<Long, Time> mapTime = new HashMap<>();
 	// TreeMap para jogadores, pois nao eh necessario ordenar toda vez na busca
 	private Map<Long, Jogador> mapJogador = new HashMap<>();
-private int a = 14;
+
 	@Desafio("incluirTime")
 	public void incluirTime(Long id, String nome, LocalDate dataCriacao, String corUniformePrincipal,
 			String corUniformeSecundario) {
